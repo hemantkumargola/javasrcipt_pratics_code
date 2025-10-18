@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <div class="contener">
+        <div>
+            <h1 id="newpass"></h1>
+            <i class="fa-solid fa-copy" id="copybtn"></i>
+        </div>
+        <div>
+            <input id="range" type="range" min="6" max="20" value="10">
+            <p id="rangevalue">10</p>
+        </div>
+
+
+        <div>
+            <input type="checkbox" name="capLet" id="capLet">
+            <label for="capLet">Upper case</label>
+            <br>
+            <input type="checkbox" name="smaLet" id="smaLet">
+            <label for="smaLet">Lower case</label>
+            <br>
+            <input type="checkbox" name="number" id="number">
+            <label for="number">Number</label>
+            <br>
+            <input type="checkbox" name="symbol" id="symbol">
+            <label for="symbol">symbol</label>
+            <br>
+        </div>
+        <button id="genpass">Genrate password</button>
+
+    </div>
+
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>

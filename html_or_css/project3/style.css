@@ -1,0 +1,68 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(https://as2.ftcdn.net/jpg/02/55/17/43/1000_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg);
+    min-height: 400px;
+}
+
+.pimg2 {
+    background-image: url(https://as1.ftcdn.net/jpg/14/76/53/24/1000_F_1476532460_ZEM5wrixf8qcw8c6QuLc9tRrN2wWBGEV.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(https://media.istockphoto.com/id/1458782106/photo/scenic-aerial-view-of-the-mountain-landscape-with-a-forest-and-the-crystal-blue-river-in.jpg?s=1024x1024&w=is&k=20&c=iPdhO2H3jeYh4UWmNlrXNmi);
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
